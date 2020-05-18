@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+import 'antd/dist/antd.less';
+import Root from './common/hocs/Root'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Root></Root>
   </React.StrictMode>,
   document.getElementById('root')
 );

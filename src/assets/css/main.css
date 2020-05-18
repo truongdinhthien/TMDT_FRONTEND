@@ -1,0 +1,49 @@
+* {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  cursor: pointer;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.bg-dark {
+  background-color: #373f50 !important
+}
+
+.bg-light {
+  background-color: #fff !important;
+}
+
+.text-black {
+  color: #2f3640 !important;
+}
+
+.container {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.bg-secondary {
+  background-color: #f6f9fc !important;
+}
+
+/* .navbar {
+  padding: 0px !important;
+} */
