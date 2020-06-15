@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./MainLayout.css";
 import { Link } from "react-router-dom";
-import { AntDesignOutlined, UserOutlined } from "@ant-design/icons";
 import * as authService from "../services/AuthService";
 
 const MainLayout = (props) => {
@@ -28,7 +27,7 @@ const MainLayout = (props) => {
           <div className="container">
             {/* <div className="top-navbar navbar-collapse"> */}
             <div className="navbar-nav mr-auto">
-              <span class="navbar-text">
+              <span className="navbar-text">
                 Online 24/7 at 0123456789
               </span>
             </div>
